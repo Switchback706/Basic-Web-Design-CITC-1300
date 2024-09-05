@@ -1,0 +1,154 @@
+/* Global Styles */
+
+body {
+    background-color: #b7915c;
+    opacity: 1;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #b7915c 32px ), repeating-linear-gradient( #16161955, #161619 );  
+}
+
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+#container {
+    background-color: #DFE1E0;
+}
+
+/* Mobile Styles */
+
+@media (min-width: 320px) {
+    nav{
+        background-color: black;
+        padding: 5px;
+        text-align: center;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    nav li {
+        display: block;
+    }
+
+    nav li a {
+        display: block;
+        height: 35px;
+        line-height: 35px;
+        border-radius: 5px;
+        background-color: #8596A2;
+        color: white;
+        font-size: 24px;
+        text-decoration: none;
+        margin-top: 5px;
+    }
+
+    nav li a:hover {
+        background-color: #8C4409;
+    }
+
+    .bass_images {
+        border-style: groove;
+        border-radius: 5px;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    h1,
+    h2 {
+        text-align: center;
+        font-family:Georgia, 'Times New Roman', Times, serif ;
+        color: #C89B39;
+        text-shadow: 1px 1px 1px #000;
+    }
+
+    footer {
+        text-align: center;
+        padding: 10px;
+    }
+
+}
+
+/* Tablet Styles */
+
+@media (min-width: 768px) {
+    nav li {
+        display: inline-block
+    }
+
+    nav li a{
+        width: 125px;
+        border-radius: 5px;
+        height: 50px;
+        line-height: 50px;
+        margin: 5px;
+    }
+
+    .bass_images {
+        width: 50%;
+        border-style: groove;
+        border-radius: 5px;
+    }
+}
+
+/* Desktop Styles */
+
+@media (min-width: 1024px){
+    #container {
+        width: 65%;
+        margin: 25px auto;
+        border: 5px solid black;
+        border-radius: 10px;
+    }
+
+    nav {
+        padding: 1px;
+        margin: 0;
+    }
+
+    nav li a {
+        background-color: black;
+    }
+
+    hr {
+        display: none;
+    }
+
+    #multi_col {
+        display: flex;
+    }
+
+    .col {
+        margin: 15px;
+        padding: 15px;
+        border: 2px solid black;
+    }
+
+    .break {
+        text-decoration: underline;
+        font-size: 30px;
+    }
+
+    .bass_images_right {
+        width: 50%;
+        border-style: groove;
+        border-radius: 5px;
+        float: right;
+        
+    }
+
+    .bass_images_left {
+        width: 50%;
+        border-style: groove;
+        border-radius: 5px;
+        float: left
+    }
+
+    
+}
