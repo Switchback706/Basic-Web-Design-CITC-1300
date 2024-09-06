@@ -113,7 +113,7 @@ img {
         padding: 15px;
     }
 
-    #highlight_heading {
+    .highlight_heading {
         text-align: center;
         font-family:Georgia, 'Times New Roman', Times, serif ;
         color: #C89B39;
